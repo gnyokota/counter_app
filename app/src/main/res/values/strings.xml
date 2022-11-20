@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CounterApp</string>
+    <string name="counter_icon">Simple vector asset</string>
+    <string name="placeholder_number">7</string>
+    <string name="input_hint">Choose a starting number</string>
+    <string name="submit_btn">Submit</string>
+    <string name="random_btn">Random starting number</string>
+    <string name="decrement_btn">-</string>
+    <string name="increment_btn">+</string>
+    <string name="placeholder_dec_inc">Please, enter a number</string>
+</resources>
