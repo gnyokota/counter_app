@@ -8,4 +8,5 @@
     <string name="decrement_btn">-</string>
     <string name="increment_btn">+</string>
     <string name="placeholder_dec_inc">Please, enter a number</string>
+    <string name="placeholder_summary">Your current operation will be displayed here</string>
 </resources>
