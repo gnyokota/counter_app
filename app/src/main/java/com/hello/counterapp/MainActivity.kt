@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         if(savedInstanceState !== null){
             binding.mainActivityTvNumber.text = savedInstanceState.getString("textNumber")
+            binding.mainActivityEtDecIncNumber.setText(savedInstanceState.getString("randomNumber"))
             binding.mainActivityTvSummary.text = savedInstanceState.getString("summary")
         }
 
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putString("textNumber", binding.mainActivityTvNumber.text.toString())
+        outState.putString("randomNumber", binding.mainActivityEtDecIncNumber.toString())
         outState.putString("summary", binding.mainActivityTvSummary.text.toString())
     }
 
